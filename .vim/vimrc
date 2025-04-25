@@ -1,0 +1,46 @@
+set number
+set hlsearch
+set autoindent
+set showmode
+syntax on
+set nocompatible
+set textwidth=80
+set noswapfile
+set nobackup
+set nowritebackup
+set history=1000
+set tabstop=4
+set shiftwidth=2
+set showcmd
+set showmatch
+set ignorecase
+set smartcase
+set incsearch
+set nolist
+if has('mouse') 
+  set mouse-=a 
+endif
+set wrap
+set linebreak
+set wrapmargin=2
+set scrolloff=5
+set sidescrolloff=15
+set laststatus=2
+set ruler
+set expandtab
+set softtabstop=4
+set cursorline
+set cursorcolumn
+set fileencodings=ucs-bom,utf-8,gbk,gb2312,cp936,gb18030,big5,latin-1
+set encoding=utf-8
+set termencoding=utf-8
+set fileencoding=utf-8
+set autochdir
+set visualbell
+set autoread
+set autowrite
+set wildmenu
+set wildmode=longest:list,full
+hi Normal ctermfg=NONE ctermbg=NONE
+set keyprotocol=
+let &term=&term
