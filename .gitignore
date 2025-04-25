@@ -1,0 +1,20 @@
+
+# This is a sample .gitignore file for a project using SSH keys and configuration files.
+# It is recommended to keep sensitive files out of version control.
+# This file should be placed in the root of your repository.
+
+# SSH keys - Ignore all private and public key files
+id_*
+
+# Known hosts file may contain sensitive server fingerprints
+known_hosts
+
+# Ignore SSH agent socket files
+.ssh/agent*
+
+# Session files often contain temporary sensitive data
+.ssh/sessions/*
+
+# User-specific SSH client configuration
+# Uncomment if you want to ignore your SSH config
+# config
