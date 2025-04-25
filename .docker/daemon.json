@@ -1,0 +1,28 @@
+{
+    "insecure-registries": [
+        "https://docker.sn0wdr1am.com",
+        "https://quay.sn0wdr1am.com",
+        "https://gcr.sn0wdr1am.com",
+        "https://k8s-gcr.sn0wdr1am.com",
+        "https://k8s.sn0wdr1am.com",
+        "https://ghcr.sn0wdr1am.com",
+        "https://cloudsmith.sn0wdr1am.com",
+        "https://ecr.sn0wdr1am.com"
+    ],
+    "registry-mirrors": [
+        "https://docker.sn0wdr1am.com",
+        "https://quay.sn0wdr1am.com",
+        "https://gcr.sn0wdr1am.com",
+        "https://k8s-gcr.sn0wdr1am.com",
+        "https://k8s.sn0wdr1am.com",
+        "https://ghcr.sn0wdr1am.com",
+        "https://cloudsmith.sn0wdr1am.com",
+        "https://ecr.sn0wdr1am.com"
+    ],
+    "log-driver": "json-file",
+    "log-opts": {
+        "max-size": "10m",
+        "max-file": "10"
+    },
+    "data-root": "/var/lib/docker"
+}
