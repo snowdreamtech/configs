@@ -12,4 +12,5 @@ brew install \
     gnupg \
     wget \
     curl \
-    fastfetch
+    fastfetch \
+    lazygit

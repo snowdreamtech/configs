@@ -14,5 +14,6 @@ apk add --no-cache \
     gnupg \
     wget \
     curl \
-    fastfetch
+    fastfetch \
+    lazygit
 

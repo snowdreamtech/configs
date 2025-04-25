@@ -24,3 +24,7 @@ sudo dnf -y install \
     wget \
     curl \
     fastfetch
+
+# install lazygit
+sudo dnf copr enable atim/lazygit -y
+sudo dnf install -y lazygit
