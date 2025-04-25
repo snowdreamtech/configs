@@ -1,0 +1,79 @@
+[core]
+  excludesfile = ~/.gitignore
+  editor = nvim
+  ignorecase = false
+[init]
+  defaultBranch = main
+[user]
+  email = sn0wdr1am@qq.com
+  name = snowdream
+  signingkey = 2D2BCE9C9ABA9BFC
+[commit]
+  gpgsign = true
+[gpg]
+  program = gpg
+[pull]
+  rebase = true
+[push]
+  default = simple
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+  ui = auto
+[alias]
+  lg = log --oneline --graph --decorate
+  ls = log --pretty=format:\"%C(yellow)%h %Creset%s\" --decorate
+  ll = log --pretty=format:\"%C(yellow)%h %Creset%s\" --decorate --numstat
+  lnc = log --pretty=format:\"%h %s\"
+  lds = log --pretty=format:\"%C(yellow)%h %C(green)%ad %Creset%s\" --decorate --date=short
+  ld = log --pretty=format:\"%C(yellow)%h %C(green)%ad %Creset%s\" --decorate --date=relative
+  lsu = log --pretty=format:\"%C(yellow)%h %Creset%s %C(cyan)<%cn>\" --decorate
+  llu = log --pretty=format:\"%C(yellow)%h %Creset%s %C(cyan)<%cn>\" --decorate --numstat
+  lncu = log --pretty=format:\"%h %s <%cn>\"
+  ldsu = log --pretty=format:\"%C(yellow)%h %C(green)%ad %Creset%s %C(cyan)<%cn>\" --decorate --date=short
+  ldu = log --pretty=format:\"%C(yellow)%h %C(green)%ad %Creset%s %C(cyan)<%cn>\" --decorate --date=relative
+  co = checkout
+  cl = clone
+  cob = checkout -b
+  br = branch
+  brD = branch -D
+  ci = commit
+  st = status
+  s = status -s
+  ri = rebase -i
+  mnf = merge --no-ff
+  mg = merge
+  a = add .
+  pf = push --force
+  ps = push
+  po = push origin
+  pom = push origin main:main
+  pomf = push origin main:main --force
+  pod = push origin dev:dev
+  podf = push origin dev:dev --force
+  pos = push origin staging:staging
+  posf = push origin staging:staging --force
+  poa = push origin --all
+  poaf = push origin --all --force
+  pot = push origin --tags
+  potf = push origin --tags --force
+  pl = pull
+  plo = pull origin
+  plom = pull origin main
+  plod = pull origin dev
+  plos = pull origin staging
+[diff]
+  tool = nvimdiff
+[difftool "nvimdiff"]
+  cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
+  path = 
+[difftool]
+  prompt = false
+[mergetool "nvimdiff"]
+  cmd = nvim -d \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[help]
+  autocorrect = immediate
