@@ -13,6 +13,9 @@ sudo dnf -y install \
 # update system
 sudo dnf -y update
 
+# fontconfig
+sudo fc-cache -fv
+
 # install packages
 sudo dnf -y install \
     vim \

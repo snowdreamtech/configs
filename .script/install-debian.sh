@@ -4,6 +4,9 @@
 # update system
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y update
 
+# fontconfig
+sudo fc-cache -fv
+
 # install packages
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     vim \

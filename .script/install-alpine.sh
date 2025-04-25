@@ -4,6 +4,9 @@
 # update system
 apk update --no-cache
 
+# fontconfig
+sudo fc-cache -fv
+
 # install packages
 apk add --no-cache \
     vim \
@@ -12,3 +15,4 @@ apk add --no-cache \
     wget \
     curl \
     fastfetch
+
