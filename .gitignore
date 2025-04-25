@@ -49,3 +49,20 @@ Session.vim
 Sessionx.vim
 # View files (for preserving folds etc.)
 *.vim.view
+
+# Docker sensitive files
+# Docker environment files
+.env
+.env.*
+!.env.example
+# Docker volumes data
+docker/volumes/
+data/docker/
+.docker/data/
+# Docker credentials
+.docker/config.json
+# Docker logs
+*.log
+docker-compose.override.yml
+# Docker build context
+.dockerignore
