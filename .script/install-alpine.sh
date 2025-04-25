@@ -15,5 +15,10 @@ apk add --no-cache \
     wget \
     curl \
     fastfetch \
-    lazygit
+    neovim \
+    lazygit \
+    fzf \
+    ripgrep \
+    fd \
+    alpine-sdk 
 

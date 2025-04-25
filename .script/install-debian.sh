@@ -15,4 +15,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     wget \
     curl \
     fastfetch \
-    lazygit
+    neovim \
+    lazygit \
+    fzf \
+    ripgrep \
+    fd-find
