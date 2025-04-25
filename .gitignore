@@ -30,3 +30,22 @@ known_hosts
 # GPG agent and pinentry sockets/logs
 .gnupg/S.*
 .gnupg/*.log
+
+# Vim sensitive files
+# Swap files
+*.swp
+*.swo
+*.swn
+# Backup files
+*~
+# Vim info file
+.viminfo
+# NetRW history file
+.netrwhist
+# Vim undo directory
+.vim/undo/
+# Session files
+Session.vim
+Sessionx.vim
+# View files (for preserving folds etc.)
+*.vim.view
