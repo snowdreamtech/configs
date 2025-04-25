@@ -1,4 +1,3 @@
-
 # This is a sample .gitignore file for a project using SSH keys and configuration files.
 # It is recommended to keep sensitive files out of version control.
 # This file should be placed in the root of your repository.
@@ -18,3 +17,16 @@ known_hosts
 # User-specific SSH client configuration
 # Uncomment if you want to ignore your SSH config
 # config
+
+# GnuPG sensitive files
+# Private keys, keyrings, and trust database
+.gnupg/*.gpg
+.gnupg/random_seed
+.gnupg/*.kbx
+.gnupg/trustdb.gpg
+.gnupg/tofu.db
+.gnupg/pubring.kbx*
+.gnupg/private-keys-v1.d/
+# GPG agent and pinentry sockets/logs
+.gnupg/S.*
+.gnupg/*.log
